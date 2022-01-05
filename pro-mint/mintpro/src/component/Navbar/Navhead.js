@@ -2,10 +2,10 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "./Navhead.scss";
 
-import wallet from "../images/wallet.svg";
-import cartIcon from "../images/CartIcon.svg";
-import donload from "../images/download.png";
-import logo1 from "../images/logo1.png";
+import wallet from "../../images/wallet.svg";
+import cartIcon from "../../images/CartIcon.svg";
+import donload from "../../images/download.png";
+import logo1 from "../../images/logo1.png";
 
 function Navhead() {
   return (
