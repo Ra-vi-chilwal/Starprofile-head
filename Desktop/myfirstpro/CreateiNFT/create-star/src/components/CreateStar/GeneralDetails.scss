@@ -1,0 +1,221 @@
+$Bgcolor:#04050a;
+$darkblueColor:rgb(19, 20, 44);
+.Title-color{
+    background-color: $Bgcolor;
+    padding-top: 100px;
+
+    .details{
+        margin-left: 60px;
+    }
+}
+.car-box{
+    background-color: #0b0d19;
+    border-radius: 15px;
+    padding: 41px 27px;
+
+    .area-cis{
+        color: white;
+        font-weight: 500;
+        background-color: #13142c;
+        border-radius: 38px;
+        border:none;
+        padding: 13px 23px;
+        width: 93%;
+        font-size: 15px;
+    }
+ 
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(252, 246, 246);
+  }
+.area-cis:focus {
+    color: #e4e6e7;
+    
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(190, 192, 196, 0) !important;
+}
+.inft-title{
+    color: white;
+    font-weight: 500;
+}
+.star-imp{
+    color: blue;
+    padding: 1px 4px;
+}
+.dropdwn-tp{
+    padding-top: 39px;
+    width: 94%;
+}
+//dropdown
+.dropdown-toggle::after {
+    display: none;
+}
+.drop-cls{
+    background-color: #13142c;
+    border-color: #13142c;
+    padding: 13px 32px;
+    border-radius: 38px;
+}
+.drop-cls:focus{
+    background-color: #13142c !important;
+    border-color: #13142c !important;
+    padding: 13px 32px;
+    border-radius: 38px;
+    box-shadow: 0 0 0 0.25rem rgba(210, 214, 219, 0) !important;
+}
+.drop-cls:hover{
+    background-color: #13142c;
+    border-color: #13142c;
+    padding: 13px 32px;
+    border-radius: 38px;
+    box-shadow: 0 0 0 0.25rem rgba(210, 214, 219, 0) !important;
+}
+.ad{
+    padding-left: 230px;
+    color: #717080;
+}
+.dropdown-item {
+    background: #232428!important;
+    color: white !important;
+    padding: 10px;
+    border-bottom: 1px solid #323236;
+    font-weight: 500;
+    
+}
+.dropdown-item:hover{
+    color: rgb(73, 85, 197) !important;
+   
+    
+}
+.dropdown-menu {
+background-color: #232428;
+border-radius: 12px;
+margin-bottom: -10px;
+}
+
+//uplaod image
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(222, 224, 226, 0);
+    
+}
+.mint-7{
+
+
+   border: 1px solid #483377;
+   background-color: transparent;
+    color: white;
+    font-weight: 500;
+    padding: 15px 50px;
+    font-size: 17px;
+    border-radius: 12px;
+    }
+.use6{
+    padding: 8px 16px;
+    font-size: 14px;
+    color:  rgb(78, 80, 89);;
+}
+.D-file{
+    height: 300px;
+    text-align: start;
+    // background-color: #13142c;
+    // color: white;
+}
+.mint-p6{
+    height: 200px;
+}
+.zone{
+    background-color: $darkblueColor;
+    border: none;
+    border-radius: 16px;
+    margin-right: 85px;
+    margin-top: 20px;
+    margin-bottom: 54px;
+}
+.visitors{
+    background-color: $darkblueColor;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+
+    &:focus{
+        background-color: $darkblueColor;
+        border: none !important;
+        border-radius: 16px;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.immp{
+    display: inline !important;
+    visibility: hidden;
+}
+
+.upload-img{
+    text-align: center;
+    width: 77%;
+    color: white;
+    font-size: 14px;
+}
+.this-g{
+    font-size: 14px;
+    color: rgb(78, 80, 89);
+}
+.btn-save{
+    background-color: #483377;
+    color: white;
+    font-weight: 500;
+    padding: 15px 50px;
+    font-size: 17px;
+    border-radius: 12px;
+
+    &:hover{
+        background-color:#483377;
+    color: white;
+    }
+    &:focus{
+        background-color:#483377;
+        color: white;   
+         box-shadow: 0 0 0 0.25rem rgba(46, 47, 48, 0);
+    }
+}
+.text-l{
+    text-align: left;
+}
+
+// card-2
+.card-2{
+    background-color: #0a0815 ;
+    padding: 25px;
+    border: 1px solid #483377;
+    border-radius: 12px;
+}
+.sheng{
+    text-align: left;
+    font-size: 12px;
+    color: rgb(84, 90, 101);
+    font-weight: 500;
+    padding-top: 7px;
+    margin-bottom: 0rem !important;
+}
+.stamp-2{
+    margin-top: 15px;
+}
+.hight-l{
+    line-height: 0px;
+}
+.slice{
+    margin-bottom: -0.25rem;
+}
+@media  screen and (min-width:350px)and (max-width:900px){
+.mob-screen{
+    padding: 30px;
+}
+}
+@media  screen and (min-width:350px)and (max-width:500px){
+    .ad {
+        padding-left: 181px;
+        color: #717080;
+    }
+    }
